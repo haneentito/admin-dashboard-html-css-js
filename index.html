@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title> Dashboard </title>
+    </head>
+    <body>
+        <nav class="menu" aria-label="Sidebar Navigation">
+            <button id="toggleMenu" class="toggle-btn">
+                  <i class="fas fa-bars"></i>
+               </button>
+            <ul>
+                <li class="profile">
+                    <div class="img-box">
+                        <img src="profile.jpg" alt="profile">
+                    </div>
+                    <h2> Nicolas Volger </h2>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                            <p>Dashboard</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user-group"></i>
+                        <p>Clients</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-table"></i>
+                        <p>Products</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-pie"></i>
+                        <p>charts</p>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class="fas fa-pen"></i>
+                        <p>posts</p>
+                    </a>
+                </li>
+                   <li>
+                    <a href="#">
+                        <i class="fas fa-star"></i>
+                        <p>Favorite</p>
+                    </a>
+                </li>
+                   <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <p>Settings</p>
+                    </a>
+                </li>
+                  <li class="log-out">
+                    <a href="#">
+                        <i class="fas fa-sign-out"></i>
+                        <p>Log Out</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <div class="title-info">
+                <p>dashboard</p>
+                <i class="fas fa-chart-bar"></i>
+            </div>
+
+            <div class="data-info">
+                <div class="box">
+                    <i class="fas fa-user"></i>
+                    <div class="data">
+                    <p>user</p>
+                    <span id="usersCount">0</span>
+                    </div>
+                </div>
+            
+                <div class="box">
+                    <i class="fas fa-pen"></i>
+                    <div class="data">
+                    <p>posts</p>
+                    <span id="postsCount">0</span>
+                    </div>
+                </div>
+            
+
+                <div class="box">
+                    <i class="fas fa-table"></i>
+                    <div class="data">
+                    <p>Products</p>
+                    <span id="productsCount">0</span>
+                    </div>
+                </div>
+          
+
+                <div class="box">
+                    <i class="fas fa-dollar"></i>
+                    <div class="data">
+                    <p>revenue</p>
+                    <span id="revenueCount">$0</span>
+                    </div>
+                </div>
+            </div>
+           
+
+            <div class="title-info">
+                <p>Products</p>
+                <i class="fas fa-table"></i>
+            </div>
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>product</th>
+                        <th>price</th>
+                        <th>count</th>
+                    </tr>
+                </thead>
+                <tbody id="productsBody"></tbody>
+            </table>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
