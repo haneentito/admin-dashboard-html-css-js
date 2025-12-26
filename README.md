@@ -1,14 +1,14 @@
-
+# Admin Dashboard UI
 
 A responsive admin dashboard interface built using HTML, CSS, and JavaScript.  
 The project focuses on layout structure, UI components, and basic interactivity.
 
 ## Features
 - Collapsible sidebar navigation
-- Dashboard cards with statistics
-- Products table
+- Statistic summary cards
+- Dynamic products table
 - Responsive layout
-- Basic JavaScript interactivity
+- Lightweight JavaScript-based interactions
 
 ## Tech Stack
 - HTML5
@@ -16,11 +16,12 @@ The project focuses on layout structure, UI components, and basic interactivity.
 - JavaScript
 - Font Awesome
 
-## Live Demo
-[Add GitHub Pages / Netlify link]
-
 ## Screenshots
-(Add desktop + mobile screenshots)
+| ![Desktop View](desktop.png ) | ![Mobile View](mobile.png) |
 
 ## Notes
-This project was built to practice frontend fundamentals, UI structure, and DOM manipulation.
+This project was built as a frontend fundamentals exercise, focusing on:
+- Clean layout structuring
+- UI consistency
+- Practical DOM manipulation
+- Separation of concerns (HTML / CSS / JS)
